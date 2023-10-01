@@ -53,3 +53,4 @@
                 particle.y += particle.speedY;
 
                 if (particle.x > canvas.width) particle.x = 0;
+                if (particle.x < 0) particle.x = canvas.width;
