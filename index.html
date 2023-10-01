@@ -63,3 +63,4 @@
 
         canvas.addEventListener('mousemove', (e) => {
             particles.forEach(particle => {
+                const dx = e.clientX - particle.x;
